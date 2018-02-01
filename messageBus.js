@@ -1,7 +1,6 @@
 class MessageBus {
   constructor() {
     this.channels = {};
-    this.subscribers = {};
   }
   subscribe(options) {
     if (!this.channels[options.channel]) {
